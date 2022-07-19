@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MeetKit (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MeetKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  MeetKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MeetKit: 0419496a6febe746c9a5ddc9673e279dc9f503e0
+
+PODFILE CHECKSUM: 161a94d93b826fbfe868ade77e6b365218a98886
+
+COCOAPODS: 1.11.3

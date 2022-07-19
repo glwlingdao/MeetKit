@@ -1,0 +1,6 @@
+framework module MeetKit {
+  umbrella header "MeetKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
